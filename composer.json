@@ -1,5 +1,5 @@
 {
-    "name": "twitter/bootstrap-bundle",
+    "name": "robinkanters/bootstrap-bundle",
     "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development. integration into Symfony2.",
     "type": "symfony-bundle",
     "keywords": ["twitter", "front-end framework", "twitter bootstrap", "symfony twitter bootstrap"],
