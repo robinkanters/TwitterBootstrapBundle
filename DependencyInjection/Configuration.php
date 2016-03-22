@@ -35,7 +35,7 @@ class Configuration implements ConfigurationInterface
                     ->end()
                     ->arrayNode('javascripts')
                     ->defaultValue([
-                            '//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js',
+                            '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js',
                             'bundles/twitterbootstrap/js/bootstrap.min.js',
                         ])
                     ->prototype('scalar')->end()
