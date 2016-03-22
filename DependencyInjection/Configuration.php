@@ -27,17 +27,17 @@ class Configuration implements ConfigurationInterface
                     ->addDefaultsIfNotSet()
                     ->children()
                         ->arrayNode('stylesheets')
-                        ->defaultValue(array(
+                        ->defaultValue([
                                 'bundles/twitterbootstrap/css/bootstrap.min.css',
                                 'bundles/twitterbootstrap/css/bootstrap-responsive.min.css',
-                            ))
+                            ])
                         ->prototype('scalar')->end()
                     ->end()
                     ->arrayNode('javascripts')
-                    ->defaultValue(array(
-                            'bundles/twitterbootstrap/js/bootstrap.min.js',
+                    ->defaultValue([
                             '//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js',
-                        ))
+                            'bundles/twitterbootstrap/js/bootstrap.min.js',
+                        ])
                     ->prototype('scalar')->end()
                     ->end()
                     ->end()
